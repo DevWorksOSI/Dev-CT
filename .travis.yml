@@ -13,7 +13,10 @@ before_install:
     - git config user.email "travis@build.bot" && git config user.name "Travis CI"
     - git tag -a -m "Travis build" init
     - echo -n | openssl s_client -connect scan.coverity.com:443 | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' | sudo tee -a /etc/ssl/certs/ca-
-
+    
+compiler:
+  - gcc
+  
 addons:
   coverity_scan:
     project:
@@ -22,3 +25,7 @@ addons:
     build_command_prepend: "./configure"
     build_command:   "make && make test"
     branch_pattern: coverity_scan
+    
+branches:
+  only:
+    - coverity_scan
