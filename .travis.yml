@@ -1,5 +1,13 @@
 language: cpp
 
+git:
+    depth: 1
+
+before_install:
+    - chmod +x configure
+    - git config user.email "travis@build.bot" && git config user.name "Travis CI"
+    - git tag -a -m "Travis build" init
+
 addons:
   coverity_scan:
     project:
