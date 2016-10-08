@@ -28,4 +28,4 @@ addons:
     
 branches:
   only:
-    - coverity_scan
+    - master
