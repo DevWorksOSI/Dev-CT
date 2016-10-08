@@ -1,0 +1,21 @@
+YOU MUST HAVE A WORKING g++/CXX Compilere installed
+
+### INSTALL PREREQS ###
+Ubuntu/Debian Users
+sudo apt-get install build-essential -y
+
+RedHat/Centos Users
+yum group install "Development Tools" -y
+
+
+### CONFIGURE ###
+./configure
+
+### COMPILE ###
+make
+make install
+
+(OPTIONAL: make && make install)
+
+
+DCT will be installed to YOUR home directory.
