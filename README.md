@@ -12,6 +12,10 @@ Developers Compression Tool Linux
 <img alt="Travis Build Status"
   src="https://travis-ci.org/Keldo/DCT.svg?branch=master">
 </a>
+<a href="https://scan.coverity.com/projects/dct" target="_blank">
+  <img alt="Coverity Scan Build Status"
+       src="https://scan.coverity.com/projects/10412/badge.svg"/>
+</a>
 
 Harnessing the Power of Tar, Gzip, Bzip2, Md5, SHA1 and SHA256, all into one tool for the linux developer.
 Cut your compression and Publishing time in half with this quick little tool to compress and hash within a minute (depending on the size of your project)...
