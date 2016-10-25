@@ -1,6 +1,12 @@
 # DCT-Linux
 Developers Compression Tool Linux
-
+<a href="http://isitmaintained.com/project/Keldo/DCT" target="_blank">
+<img alt="Is It maintained"
+  src="http://isitmaintained.com/badge/resolution/Keldo/DCT.svg">
+  </a>
+ <a href="http://isitmaintained.com/project/Keldo/DCT" target="_blank"> 
+<img src="http://isitmaintained.com/badge/open/Keldo/DCT.svg">
+</a>
 <a href="https://travis-ci.org/Keldo/DCT/" target="_blank">
 <img alt="Travis Build Status"
   src="https://travis-ci.org/Keldo/DCT.svg?branch=master">
