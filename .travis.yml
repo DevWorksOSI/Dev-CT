@@ -1,31 +1,24 @@
-language: cpp
-sudo: required
-
-env:
-    global:
-        - secure: "AIs2Tl2UgsqWwkfJMcAruyVVGNMYXk6ceyzXmFLTDsREKYHnVAPSD0U03+DFKK5ZyFWW5RMcgTGMyuuFi3Q+krAgvZo471IEIxmQ3tBBtM37mcyBxeTdIG0v0f/VGxIgodhHF2OM4uFeWXwEItPoEVlAM3eIbNH1zqQbgGxmIV/h8dzGVz/3Rr6pliuwWs/Tav9lNcxycckE3G6KpX1VRLHQC1mEDly3ZxufNQuHJy/xynqhNatM+fEOkJeR4AJ2KZ3wflC42GRLVfLhHogwYd2o4QvspJgPHNc3nkRh7EiA/WWMw3eOOV4HKlKtljBVlpK5JIT42dLb+hYaxoOzwFFhYakv7zoktG+/cQLO1EG1+ak2P10rgrbFZcXUH8rdYDXaD4CYYNmtklKutEWaGMtQAgS2ZJika1TiksICQ4x+1RAuBK4Bwb7kgCaxCGBiC+zVm59NxV5rwWNXA1kHdBsihmBtoI+SKkUXCt8ZbahYW0xuw5/U+gosZZPh+UbuwcfvQdl6mVeCwFlD3UGJA/ZBOejvAPGakghzz3iQa8yktri+dGv1HcB+biSAiRnAJTJBCFN5JlsEOLUQz2ocldWdUGW92HUeG49d6iUk7rCHyIRKaQiGhkfsSL9FQGAuiZr3Vv+haDzqybmBWvJ4vEKG8+3WQLZlIywTpIHDITY="
-
-git:
-    depth: 1
-
-before_install:
-    - chmod +x configure
-    - git config user.email "travis@build.bot" && git config user.name "Travis CI"
-    - git tag -a -m "Travis build" init
-    - echo -n | openssl s_client -connect scan.coverity.com:443 | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' | sudo tee -a /etc/ssl/certs/ca-
-    
+language: c++
 compiler:
   - gcc
-  
+
+env:
+  global:
+   # The next declration is the encrypted COVERITY_SCAN_TOKEN, created
+   #   via the "travis encrypt" command using the project repo's public key
+   - secure: "Cq42CjUJ/mRINw9vj+JdAC4N3QOEEZElwfzCGbkQjMCVfbBbYhNL33tkxIO4tCJBVUwJkX417iDETNEPCXdXrjCoJrFRzWDwz0yXTQpcSUc1t5T0Gi/I/cqCvhx3bgZImcDvO20nmZVGLU7JPWInWTLFG1dfwkdO0ZH3qfLSwNndsRRYTXPldWZ8Ogq5n/Q+RmyKQVAGm/+GRZF0rGCnx/jM1ZP4K8eE1nxfnUxInMUxhwiY5vwjlPB3aqMP2izNVRA1AWnTdGKxNm8/zRFHSaeqGFZp7KCnnhmWFus6wRUqoAfNvP5cDJ3VxSWAE60Us3B/ryhWl2AD4CDAnnCa8uemLa6B8d3VFLsYbwm2lcbfcOc6c1IMLU93eosyaLmFIToqqNmYvROjYTGu8QTmeN/I5zFRLsKfgBm2sKdVhyoA6uBtHXDoaX/+TKhYP/1h+ryHKSicVb4lZBfz98ONw0Ogct8dTF8A/qBskC9xn5Igg9Pps867P/1ORRzMj/kTqRTBHOgh0oFw9b+I4yGWR09HmeqB2Z/sEwC7wlj/mepa32JTLSGHKVKswZ5CzMv0DHjvkv1llVrBenRWblThbkzJ/invuWbG4Mb8Z7/cWoVpWiMBnY3dmGOiaOogPF5QEgvsAlFtb50R/FB4e4tj1OfEUKf9+n4p4RvJHtGjjJQ="
+   
 addons:
   coverity_scan:
     project:
       name: "Keldo/DCT"
+      description: "Developers Compression Tool"
     notification_email: scott@twedev.com
     build_command_prepend: "./configure"
-    build_command:   "make && make test"
-    branch_pattern: coverity_scan
+    build_command: "make"
+    branch_pattern: master
+
+
     
-branches:
-  only:
-    - master
+script:
+- make 

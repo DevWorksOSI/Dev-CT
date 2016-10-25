@@ -1,0 +1,6 @@
+AC_INIT(dct, version-1.0)
+
+echo "Testing for a C++ compiler"
+AC_PROG_CXX
+
+
