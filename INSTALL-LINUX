@@ -1,8 +1,12 @@
-YOU MUST HAVE A WORKING g++/CXX Compilere installed
+YOU MUST HAVE A WORKING g++/CXX Compiler installed
+
+## REQUIRED ##
+g++
+zip
 
 ### INSTALL PREREQS ###
 Ubuntu/Debian Users
-sudo apt-get install build-essential -y
+sudo apt-get install build-essential zip -y
 
 RedHat/Centos Users
 yum group install "Development Tools" -y
