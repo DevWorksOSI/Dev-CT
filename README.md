@@ -24,12 +24,17 @@ Cut your compression and Publishing time in half with this quick little tool to 
 - Comes with NO GUI
 - Command Line (Terminal) Only
 
+# Required
+- g++
+- zip
+
 # Install
 - ./configure
 - make
 - make install
 
 # Support
-- Any issues should be emailed to support@twedev.com
+- Any issues should be emailed to support@devworksosi.com
 - Please join our site to be kept up to date on future releases.
-- www.twedev.com
+- www.devworksosi.com
+- Any issues should be posted on our <a href="https://github.com/Keldo/DCT/issues">Issue Tracker</a>
