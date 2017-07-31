@@ -13,7 +13,7 @@ addons:
     project:
       name: "Keldo/DCT"
       description: "Developers Compression Tool"
-    notification_email: scott@twedev.com
+    notification_email: scilley@devworksosi.com
     build_command_prepend: "./configure"
     build_command: "make"
     branch_pattern: master
