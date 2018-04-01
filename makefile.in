@@ -10,12 +10,18 @@ prefix	:= /home/$(USER)/DCT
 
 install:
 	mkdir $(prefix)
+	mkdir $(prefix)/docs
 	cp bin/dct $(prefix)/dct
-	cp docs/README $(prefix)/README
-	cp LICENSE $(prefix)LICENSE
+	cp docs/README $(prefix)/docs/README
+	cp docs/LICENSE $(prefix)/docs/LICENSE
 
 clean:
 	rm bin/$(PROG)
 	rm $(prefix)
+
+remove:
+	rm -Rf $(prefix)/docs
+	rm $(prefix)/dct
+	rm -Rf $(prefix)
 	
 test:
