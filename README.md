@@ -33,6 +33,12 @@ Cut your compression and Publishing time in half with this quick little tool to 
 - make
 - make install
 
+# UnInstall
+- make remove
+
+# Clean the source
+- make clean
+
 # Support
 - Any issues should be emailed to support@devworksosi.com
 - Please join our site to be kept up to date on future releases.
