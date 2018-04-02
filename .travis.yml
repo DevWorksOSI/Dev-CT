@@ -21,4 +21,7 @@ addons:
 
     
 script:
-- make 
+- make
+- make install
+- make clean
+-make remove
