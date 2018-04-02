@@ -15,7 +15,7 @@ addons:
       description: "Developers Compression Tool"
     notification_email: scilley@devworksosi.com
     build_command_prepend: "./configure"
-    build_command: "make"
+    build_command: "make && make install && make clean && make remove"
     branch_pattern: master
 
 
