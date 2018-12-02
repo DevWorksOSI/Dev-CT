@@ -40,7 +40,6 @@ Cut your compression and Publishing time in half with this quick little tool to 
 - make clean
 
 # Support
-- Any issues should be emailed to support@devworksosi.com
-- Please join our site to be kept up to date on future releases.
-- www.devworksosi.com
+- Any issues should be emailed to support@devworksosi.tech
+- www.devworksosi.tech
 - Any issues should be posted on our <a href="https://github.com/Keldo/DCT/issues">Issue Tracker</a>
