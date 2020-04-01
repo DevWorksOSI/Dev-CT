@@ -11,9 +11,9 @@ env:
 addons:
   coverity_scan:
     project:
-      name: "Keldo/DCT"
+      name: "DevWorksOSI/DCT"
       description: "Developers Compression Tool"
-    notification_email: scilley@devworksosi.com
+    notification_email: scilley@outlook.com
     build_command_prepend: "./configure"
     build_command: "make && make install && make clean && make remove"
     branch_pattern: master
@@ -24,4 +24,4 @@ script:
 - make
 - make install
 - make clean
--make remove
+- make remove
