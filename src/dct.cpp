@@ -39,14 +39,15 @@ int main() {
     using std::cout;
 	string projectname;
 	
-	printf("\n");
-    printf("**** Created for Developers.***************************************\n");
-    printf("Coded by DevWorks OSI dot Tech.                                   *\n");
+    printf("\n");
+    printf("*******************************************************************\n");	
+    printf("Created by Developers for Developers.                             *\n");
+    printf("Coded by DevWorks OSI.                                            *\n");
     printf("Freedom in Open Source.                                           *\n");
-	printf("Please use versioning, IE: yourproject-1.1.0.                 *\n");
-	printf("The last number in your projects version is the recent build. *\n");
-	printf("Version 1.1.0 becomes 1.1.1 and so forth on each new build.   *\n");
-	printf("***************************************************************\n");
+    printf("Please use versioning, IE: yourproject-1.1.0.                     *\n");
+    printf("The last number in your projects version is the recent build.     *\n");
+    printf("Version 1.1.0 becomes 1.1.1 and so forth on each new build.       *\n");
+    printf("*******************************************************************\n");
 	
 	// Let's begin work
 	std::cout << "Enter your project folders name: ";
@@ -70,27 +71,27 @@ int main() {
 	
 	printf("Hashing your application.\n");
 	system(("md5sum " + projectname + ".zip > zip-md5.log").c_str());
-    system(("md5sum " + projectname + ".tar.gz > gzip-md5.log").c_str());
+        system(("md5sum " + projectname + ".tar.gz > gzip-md5.log").c_str());
 	system(("md5sum " + projectname + ".tar.bz2 > bz2-md5.log").c_str());
 	system(("sha1sum " + projectname + ".zip > zip-sha1.log").c_str());
-    system(("sha1sum " + projectname + ".tar.gz > gzip-sha1.log").c_str());
+        system(("sha1sum " + projectname + ".tar.gz > gzip-sha1.log").c_str());
 	system(("sha1sum " + projectname + ".tar.bz2 > bz2-sha1.log").c_str());
 	system(("sha256sum " + projectname + ".zip > zip-sha256.log").c_str());
-    system(("sha256sum " + projectname + ".tar.gz > gzip-sha256.log").c_str());
+        system(("sha256sum " + projectname + ".tar.gz > gzip-sha256.log").c_str());
 	system(("sha256sum " + projectname + ".tar.bz2 > bz2-sha256.log").c_str());
 	
 	printf("Publishing your application.\n");
 	system(("mv " + projectname + ".tar.gz publish/" + projectname + "/").c_str());
-    system(("mv " + projectname + ".zip publish/" + projectname + "/").c_str());
+        system(("mv " + projectname + ".zip publish/" + projectname + "/").c_str());
 	system(("mv " + projectname + ".tar.bz2 publish/" + projectname + "/").c_str());
 	system(("mv zip-md5.log publish/" + projectname + "/hash/zip/").c_str());
-    system(("mv gzip-md5.log publish/" + projectname + "/hash/gzip/").c_str());
+        system(("mv gzip-md5.log publish/" + projectname + "/hash/gzip/").c_str());
 	system(("mv bz2-md5.log publish/" + projectname + "/hash/bz2/").c_str());
 	system(("mv zip-sha1.log publish/" + projectname + "/hash/sha1/").c_str());
-    system(("mv gzip-sha1.log publish/" + projectname + "/hash/sha1/").c_str());
+        system(("mv gzip-sha1.log publish/" + projectname + "/hash/sha1/").c_str());
 	system(("mv bz2-sha1.log publish/" + projectname + "/hash/bz2/").c_str());
 	system(("mv zip-sha256.log publish/" + projectname + "/hash/sha256/").c_str());
-    system(("mv gzip-sha256.log publish/" + projectname + "/hash/sha256/").c_str());
+        system(("mv gzip-sha256.log publish/" + projectname + "/hash/sha256/").c_str());
 	system(("mv bz2-sha256.log publish/" + projectname + "/hash/bz2/").c_str());
 	
 	printf("Cleaning up.\n");
