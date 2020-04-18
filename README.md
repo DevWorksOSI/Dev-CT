@@ -3,7 +3,7 @@ Developers Compression Tool Linux
 
 <a href="http://isitmaintained.com/project/DevWorksOSI/Dev-CT" target="_blank">
 <img alt="Is It maintained"
-  src="http://isitmaintained.com/badge/resolution/DevWorsOSI/Dev-CT.svg">
+  src="http://isitmaintained.com/badge/resolution/DevWorksOSI/Dev-CT.svg">
   </a>
  <a href="http://isitmaintained.com/project/DevWorksOSI/Dev-CT" target="_blank"> 
 <img src="http://isitmaintained.com/badge/open/DevWorksOSI/Dev-CT.svg">
