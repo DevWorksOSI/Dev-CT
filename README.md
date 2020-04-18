@@ -1,18 +1,18 @@
 # DCT-Linux
 Developers Compression Tool Linux
 
-<a href="http://isitmaintained.com/project/DevWorksOSI/DCT" target="_blank">
+<a href="http://isitmaintained.com/project/DevWorksOSI/Dev-CT" target="_blank">
 <img alt="Is It maintained"
-  src="http://isitmaintained.com/badge/resolution/DevWorsOSI/DCT.svg">
+  src="http://isitmaintained.com/badge/resolution/DevWorsOSI/Dev-CT.svg">
   </a>
- <a href="http://isitmaintained.com/project/DevWorksOSI/DCT" target="_blank"> 
-<img src="http://isitmaintained.com/badge/open/DevWorksOSI/DCT.svg">
+ <a href="http://isitmaintained.com/project/DevWorksOSI/Dev-CT" target="_blank"> 
+<img src="http://isitmaintained.com/badge/open/DevWorksOSI/Dev-CT.svg">
 </a>
-<a href="https://travis-ci.org/DevWorksOSI/DCT/" target="_blank">
+<a href="https://travis-ci.org/DevWorksOSI/Dev-CT/" target="_blank">
 <img alt="Travis Build Status"
-  src="https://travis-ci.org/DevWorksOSI/DCT.svg?branch=master">
+  src="https://travis-ci.org/DevWorksOSI/Dev-CT.svg?branch=master">
 </a>
-<a href="https://scan.coverity.com/projects/dct" target="_blank">
+<a href="https://scan.coverity.com/projects/dev-ct" target="_blank">
   <img alt="Coverity Scan Build Status"
        src="https://scan.coverity.com/projects/10412/badge.svg"/>
 </a>
