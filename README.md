@@ -1,16 +1,16 @@
 # DCT-Linux
 Developers Compression Tool Linux
 
-<a href="http://isitmaintained.com/project/Keldo/DCT" target="_blank">
+<a href="http://isitmaintained.com/project/DevWorksOSI/DCT" target="_blank">
 <img alt="Is It maintained"
-  src="http://isitmaintained.com/badge/resolution/Keldo/DCT.svg">
+  src="http://isitmaintained.com/badge/resolution/DevWorsOSI/DCT.svg">
   </a>
- <a href="http://isitmaintained.com/project/Keldo/DCT" target="_blank"> 
-<img src="http://isitmaintained.com/badge/open/Keldo/DCT.svg">
+ <a href="http://isitmaintained.com/project/DevWorksOSI/DCT" target="_blank"> 
+<img src="http://isitmaintained.com/badge/open/DevWorksOSI/DCT.svg">
 </a>
-<a href="https://travis-ci.org/Keldo/DCT/" target="_blank">
+<a href="https://travis-ci.org/DevWorksOSI/DCT/" target="_blank">
 <img alt="Travis Build Status"
-  src="https://travis-ci.org/Keldo/DCT.svg?branch=master">
+  src="https://travis-ci.org/DevWorksOSI/DCT.svg?branch=master">
 </a>
 <a href="https://scan.coverity.com/projects/dct" target="_blank">
   <img alt="Coverity Scan Build Status"
@@ -40,6 +40,4 @@ Cut your compression and Publishing time in half with this quick little tool to 
 - make clean
 
 # Support
-- Any issues should be emailed to support@devworksosi.tech
-- www.devworksosi.tech
-- Any issues should be posted on our <a href="https://github.com/Keldo/DCT/issues">Issue Tracker</a>
+- Any issues should be posted on our <a href="https://github.com/DevWorksOSI/Dev-CT/issues">Issue Tracker</a>
