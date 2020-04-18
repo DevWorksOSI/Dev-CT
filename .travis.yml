@@ -11,7 +11,7 @@ env:
 addons:
   coverity_scan:
     project:
-      name: "DevWorksOSI/DCT"
+      name: "DevWorksOSI/Dev-CT"
       description: "Developers Compression Tool"
     notification_email: scilley@outlook.com
     build_command_prepend: "./configure"
