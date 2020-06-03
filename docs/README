@@ -10,7 +10,7 @@ Continue below....
 1. Open a Terminal
 2. Navigate to DCT
 3. Run DCT ./dct
-4. When promted, type your applications folder name, it must be in the DCT Folder
+4. When prompted, type your applications folder name, it must be in the DCT Folder
 5. Let DCT to its work
 6. Everything will be published to the projects folder.
 7. Your MD5, SHA1, and SHA256 Hash Sums will be stored in the hash folder
