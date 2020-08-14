@@ -10,6 +10,8 @@ int main() {
 	static char version[] = VERSION_MAJOR "." VERSION_MINOR "." VERSION_PATCH "." VERSION_BUILD;
 	static char timestamp[] = __DATE__ " " __TIME__;
 	
+	// Check directory structure and create if neccessary on first run
+	
     printf("Checking root directory structure\n");
     struct stat projbuff;
     int projects = 0;
@@ -30,6 +32,7 @@ int main() {
        }
     } else {
        system(("mkdir publish"));
+	    return 0;
     }
 	
 	printf("Directory structure confirmed!\n\n");
