@@ -1,6 +1,10 @@
 ##### USING DCT #####
 
 DCT is a terminal based application for Linux
+*** FIRST RUN ***
+1. Run DCT ./dct
+2. Check to ensure the projects and publish folders have been created
+3. See below for normal operation
 
 *** IMORTANT ***
 Copy your project folder to the DCT folder
