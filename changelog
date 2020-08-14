@@ -1,11 +1,11 @@
+dct (1.2.07) stable
+ * Corrected Version Number
+
 dct (1.2.05) stable
  * Removed Gzip command
  * Added cleanup
  * Added create root folders functionality on first run
  * Added check for Tar and Zip in configure
  * Configure rebuilt using latest autotools
- 
- * TODO: Check for exisiting folders and move them as needed
-         Changing directory to the projects directory before compression
          
- -- Scott Cilley <scilley@devworksosi.tech> Sun, 30 Jul 2017 10:49:05 +0200
+ -- Scott Cilley <scilley@dwosi.us> Fri, 14 Aug 2020 10:49:05 +0200
