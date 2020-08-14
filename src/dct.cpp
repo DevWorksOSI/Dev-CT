@@ -44,9 +44,9 @@ int main() {
     printf("Created by Developers for Developers.                             *\n");
     printf("Coded by DevWorks OSI.                                            *\n");
     printf("Freedom in Open Source.                                           *\n");
-    printf("Please use versioning, IE: yourproject-1.1.0.                     *\n");
+    printf("Please use versioning, IE: yourproject-1.0.0.                     *\n");
     printf("The last number in your projects version is the recent build.     *\n");
-    printf("Version 1.1.0 becomes 1.1.1 and so forth on each new build.       *\n");
+    printf("Version 1.0.0 becomes 1.0.1 and so forth on each new build.       *\n");
     printf("*******************************************************************\n");
 	
 	// Let's begin work
