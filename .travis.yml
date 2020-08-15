@@ -6,17 +6,19 @@ env:
   global:
    # The next declration is the encrypted COVERITY_SCAN_TOKEN, created
    #   via the "travis encrypt" command using the project repo's public key
-   secure: "lHA__uNQTsMCoPn2A8dUig"
+   # secure: "lHA__uNQTsMCoPn2A8dUig"
+   travis encrypt devct="Ru$197303" --add
    
 addons:
   coverity_scan:
     project:
       name: "DevWorksOSI/Dev-CT"
       description: "Developers Compression Tool"
+      version: 1.2
     notification_email: scilley@outlook.com
     build_command_prepend: "./configure"
     build_command: "make && make install && make clean && make remove"
-    branch_pattern: master
+    branch_pattern: coverity_scan
 
 
     
